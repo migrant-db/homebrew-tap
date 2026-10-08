@@ -1,25 +1,25 @@
 class Migrant < Formula
   desc "AI-powered engineering intelligence CLI for PostgreSQL databases"
   homepage "https://github.com/migrant-db/migrant"
-  version "v1.1.2"
+  version "v1.1.3"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/migrant-db/migrant/releases/download/v1.1.2/migrant-cli-macos-arm64"
-      sha256 "4a1873c9583d6832e16593de544f03befefc502e309e59d01bcf894e7cda9f4d"
+      url "https://github.com/migrant-db/migrant/releases/download/v1.1.3/migrant-cli-macos-arm64"
+      sha256 "4b1e019eb326ffaa3b4945aa6d651a6ffe9b032b43c97037e38925da386b6118"
     else
-      url "https://github.com/migrant-db/migrant/releases/download/v1.1.2/migrant-cli-macos-x64"
-      sha256 "bd28831e911afcff03094c4901564bf06740cb63c1b3ecbaccd60646ffb7d048"
+      url "https://github.com/migrant-db/migrant/releases/download/v1.1.3/migrant-cli-macos-x64"
+      sha256 "356bfd4df5e99f6716b4e3e634f9093999d6e8423f8b2e9e66a362d74e3a68bd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/migrant-db/migrant/releases/download/v1.1.2/migrant-cli-linux-arm64"
-      sha256 "742e1ebb8d54cffdd26bbafe57bd314bdffb4a0aaa11948998fe9e287b5de2a4"
+      url "https://github.com/migrant-db/migrant/releases/download/v1.1.3/migrant-cli-linux-arm64"
+      sha256 "9cf5739a7b6eaa8165d27f2b02e341e44a2d232afc5a8fbd7dae1d5e8cf2ab2f"
     else
-      url "https://github.com/migrant-db/migrant/releases/download/v1.1.2/migrant-cli-linux-x64"
-      sha256 "b0fae4b7132335c428a53b27a17c9b32535ed0b85b6a536cbc983620cb5a0292"
+      url "https://github.com/migrant-db/migrant/releases/download/v1.1.3/migrant-cli-linux-x64"
+      sha256 "d2096abdd1efc82094ab0b67a70188aa67813982d4b9b1cb715f12232771e7c0"
     end
   end
 
