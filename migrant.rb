@@ -6,20 +6,20 @@ class Migrant < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/migrant-db/migrant/releases/download/v1.1.3/migrant-cli-macos-arm64"
-      sha256 "4b1e019eb326ffaa3b4945aa6d651a6ffe9b032b43c97037e38925da386b6118"
+      sha256 "c517d740e42eb1169f1f80238adf3f9c009156c716d155f2345ff55df1ef145f"
     else
       url "https://github.com/migrant-db/migrant/releases/download/v1.1.3/migrant-cli-macos-x64"
-      sha256 "356bfd4df5e99f6716b4e3e634f9093999d6e8423f8b2e9e66a362d74e3a68bd"
+      sha256 "1f9a2a8112c3b817017a17e2f6c2233f8c3419a06a2e0a55ee02d1709a7a5287"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/migrant-db/migrant/releases/download/v1.1.3/migrant-cli-linux-arm64"
-      sha256 "9cf5739a7b6eaa8165d27f2b02e341e44a2d232afc5a8fbd7dae1d5e8cf2ab2f"
+      sha256 "7f90cca908d1ff4375ad6aabd63b8669e93d9657470f1466ce204c1689f5ac95"
     else
       url "https://github.com/migrant-db/migrant/releases/download/v1.1.3/migrant-cli-linux-x64"
-      sha256 "d2096abdd1efc82094ab0b67a70188aa67813982d4b9b1cb715f12232771e7c0"
+      sha256 "47da2740caa54b3831c66965b5f606b172bcb94c85b81a785899393aa10d14ab"
     end
   end
 
